@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif; 
+}
+
+
+h1{
+    font-size: 62px;
+}
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  span{
+    position: relative;
+    top: 40px;
+    left: 120px;
+    font-size: 50px; 
+  }
+
+  .button-container{
+    position: relative;
+    top: 70px;
+    left: -82px;
+  }
+
+  button{
+    width: 100px;
+    height: 40px;
+    transition: all 200ms;
+    border-radius: 5px;
+    margin: 20px;
+  }
+
+  button:hover{
+    transition: all 200ms;
+    background-color:saddlebrown;
+  }
+
+  button:active{
+    color: white;
+  }
